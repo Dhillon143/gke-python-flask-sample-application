@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "learning devops with git"
+    return "learning devops with python"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
